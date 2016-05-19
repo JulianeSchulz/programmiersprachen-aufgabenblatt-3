@@ -1,0 +1,38 @@
+# Build tests
+add_executable(tests
+  color.cpp
+  circle.cpp
+  vec2.cpp
+  tests.cpp
+)
+
+add_executable(Aufgabe8
+  color.cpp
+  circle.cpp
+  vec2.cpp
+  Aufgabe8.cpp
+)
+target_link_libraries(tests
+  m)
+
+add_executable(aufgabe2bis4
+aufgabe2bis4.cpp
+)
+
+add_executable(beispiel
+beispiel.cpp
+)
+
+add_executable(aufgabe5
+aufgabe5.cpp
+)
+
+add_executable(aufgabe10
+aufgabe10.cpp
+)
+
+add_executable(aufgabe11
+aufgabe11.cpp
+)
+
+
